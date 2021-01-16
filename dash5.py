@@ -65,7 +65,7 @@ app.layout = html.Div(
                  ),
 
         html.Div([
-            html.H1(children='Auring Technologies',
+            html.H1(children='Company',
                     className = "nine columns",style={'margin-top': -1100,'margin-left':400,'margin-right':'auto','position': 'relative','color': app_colors['background']}),
             html.Img(
                 src='data:image/png;base64,{}'.format(encoded_image1),
